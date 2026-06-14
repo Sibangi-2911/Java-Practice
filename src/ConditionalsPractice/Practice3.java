@@ -9,10 +9,7 @@ public class Practice3 {
         double money = sc.nextDouble();
         System.out.print("Do you have membership? (true/false)");
         boolean hasMembership = sc.nextBoolean();
-        if(money>5000 || hasMembership==true){
-            System.out.println("Eligible for discount.");
-        } else{
-            System.out.println("Not Eligible for discount");
-        }
+        boolean discount = money>5000 || hasMembership;
+        System.out.println(discount?"Eligible for discount":"Not Eligible for discount");
     }
 }
