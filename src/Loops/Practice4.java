@@ -1,5 +1,5 @@
 package Loops;
-// Displaying and counting all letters of a word backwards using while loop
+// Displaying and counting all the letters of a word backwards using while loop
 
 import java.util.*;
 public class Practice4 {
