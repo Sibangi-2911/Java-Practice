@@ -1,5 +1,5 @@
 package Loops;
-//using for loop print numbers from 0 to 10
+//using for loop print numbers from 0 to 10 using for loop
 
 
 public class Practice6 {
