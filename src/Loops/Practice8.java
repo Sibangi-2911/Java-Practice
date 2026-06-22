@@ -1,5 +1,5 @@
 package Loops;
-//Calculate the sum of digits of a number
+//Calculate the sum of digits of a number using for loop
 
 import java.util.*;
 public class Practice8 {
