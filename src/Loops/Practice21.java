@@ -14,6 +14,7 @@ public class Practice21 {
             if(s1.indexOf(c) != s1.lastIndexOf(c)){
                 System.out.println("Repeated");
                 found = true;
+                break;
             }
         }
         if(found==false){
