@@ -7,5 +7,9 @@ public class Arr2 {
         System.out.println(Arrays.toString(arr));
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
+
+        //Comparing Arrays
+        int arr1[]= {100,2,33,4};
+        System.out.println(Arrays.equals(arr, arr1));
     }
 }
