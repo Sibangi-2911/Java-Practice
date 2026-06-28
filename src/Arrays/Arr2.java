@@ -26,5 +26,14 @@ public class Arr2 {
 
         //Binary Search
         System.out.println(Arrays.binarySearch(arr,33));
+
+        //Sum of elements in an array
+        int c[] = {1,2,4,3,5};
+        System.out.println(Arrays.stream(c).sum());
+        System.out.println(Arrays.stream(c).max());
+
+        //Parallel Sort
+        Arrays.parallelSort(c);
+        System.out.println(Arrays.toString(c));
     }
 }
