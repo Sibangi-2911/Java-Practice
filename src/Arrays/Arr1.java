@@ -1,5 +1,5 @@
 package Arrays;
-//Storing marks of students and average calculated
+//Storing marks of the students and average calculated
 
 import java.util.*;
 public class Arr1 {
