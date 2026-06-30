@@ -32,7 +32,7 @@ public class Arr2 {
         System.out.println(Arrays.stream(c).sum());
         System.out.println(Arrays.stream(c).max());
 
-        //Parallel Sorting
+        //Parallel Sorting---> Faster becoz multithreading involved
         Arrays.parallelSort(c);
         System.out.println(Arrays.toString(c));
     }
