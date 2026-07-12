@@ -1,4 +1,5 @@
 package IPA_Practice;
+// solve sum of odd numbers within specified range
 import java.util.*;
 public class Solution8 {
     public static void main(String args[]){
